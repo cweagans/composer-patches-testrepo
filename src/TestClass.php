@@ -10,4 +10,9 @@ class TestClass
     {
         $this->someparam = $someparam;
     }
+
+    public function another_method()
+    {
+        $this->someparam = null;
+    }
 }
